@@ -198,7 +198,7 @@
 	name = "Strange Seed"
 	id = "sseed"
 	build_type = BIOGENERATOR
-	material = list(/datum/material/biomass = 200)
+	materials = list(/datum/material/biomass = 200)
 	build_path = /obj/item/seeds/random
 	category =list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
 
