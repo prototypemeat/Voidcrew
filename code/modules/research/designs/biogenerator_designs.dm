@@ -193,3 +193,12 @@
 	materials = list(/datum/material/biomass = 3)
 	build_path = /obj/item/flashlight/flare/candle
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
+
+/datum/design/Strange_Seed
+	name = "Strange Seed"
+	id = "sseed"
+	build_type = BIOGENERATOR
+	material = list(/datum/material/biomass = 200)
+	build_path = /obj/item/seeds/random
+	category =list(RND_CATEGORY_INITIAL, RND_CATEGORY_BIO_MATERIALS)
+
